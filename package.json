@@ -20,8 +20,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepublishOnly": "nr build",
-    "release": "bumpp --commit --push --tag && pnpm publish",
-    "start": "tsx src/index.ts",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm publish",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
