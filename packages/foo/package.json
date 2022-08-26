@@ -1,0 +1,39 @@
+{
+  "name": "@mono/foo",
+  "version": "0.0.0",
+  "author": "Ray <nn_201312@163.com> (https://raycoder.me)",
+  "description": "A Monorepo package",
+  "keywords": [
+  ],
+  "homepage": "https://github.com/so1ve/mono/tree/main/packages/shared#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/so1ve/mono.git",
+    "directory": "/"
+  },
+  "bugs": {
+    "url": "https://github.com/so1ve/mono/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "puild",
+    "stub": "puild --stub"
+  }
+}
