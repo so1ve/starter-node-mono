@@ -1,5 +1,5 @@
-# @bakabg/monorepo
+# @mono/mono
 
 ## License
 
-[Unlicense](./LICENSE)
+[MIT](./LICENSE)

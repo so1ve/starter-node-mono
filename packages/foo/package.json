@@ -5,7 +5,7 @@
   "description": "A Monorepo package",
   "keywords": [
   ],
-  "homepage": "https://github.com/so1ve/mono/tree/main/packages/shared#readme",
+  "homepage": "https://github.com/so1ve/mono/tree/main/packages/mono#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/so1ve/mono.git",
