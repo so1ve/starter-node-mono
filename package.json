@@ -15,8 +15,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "rimraf dist && puild",
-    "watch": "puild --watch",
+    "build": "rimraf packages/*/dist && pnpm -r run build",
+    "watch": "pnpm -r --parallel run watch",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepublishOnly": "nr build",
