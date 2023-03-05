@@ -1,18 +1,18 @@
 {
-  "name": "@mono/mono",
+  "name": "@org-name/monorepo",
   "private": true,
   "version": "0.0.0",
   "packageManager": "pnpm@7.9.5",
   "author": "Ray <i@mk1.io> (https://github.com/so1ve)",
   "description": "",
   "keywords": [],
-  "homepage": "https://github.com/so1ve/mono#readme",
+  "homepage": "https://github.com/so1ve/repo-name#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/so1ve/mono.git"
+    "url": "git+https://github.com/so1ve/repo-name.git"
   },
   "bugs": {
-    "url": "https://github.com/so1ve/mono/issues"
+    "url": "https://github.com/so1ve/repo-name/issues"
   },
   "license": "MIT",
   "scripts": {

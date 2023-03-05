@@ -1,4 +1,4 @@
-# @mono/mono
+# @org-name/monorepo
 
 ## License
 
