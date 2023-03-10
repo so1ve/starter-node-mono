@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { foo } from "../packages/foo/src";
+import { foo } from "../packages/pkg-name/src";
 
 describe("foo", () => {
   it("should exported", () => {

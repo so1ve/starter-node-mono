@@ -34,6 +34,9 @@ importers:
       vite: 3.0.8
       vitest: 0.22.0
 
+  packages/mono:
+    specifiers: {}
+
 packages:
 
   /@antfu/ni/0.17.2:
