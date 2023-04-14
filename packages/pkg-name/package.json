@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "author": "Ray <i@mk1.io> (https://github.com/so1ve)",
   "description": "A Monorepo package",
-  "keywords": [
-  ],
+  "keywords": [],
   "homepage": "https://github.com/so1ve/repo-name/tree/main/packages/pkg-name#readme",
   "repository": {
     "type": "git",
@@ -15,9 +14,6 @@
     "url": "https://github.com/so1ve/repo-name/issues"
   },
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "sideEffects": false,
   "exports": {
     ".": {
@@ -32,6 +28,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "puild",
     "stub": "puild --stub"
