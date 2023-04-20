@@ -32,7 +32,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "puild",
-    "stub": "puild --stub"
+    "build": "unbuild",
+    "stub": "unbuild --stub"
   }
 }
