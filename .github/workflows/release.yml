@@ -17,9 +17,6 @@ jobs:
           node-version: 16.x
           cache: pnpm
 
-      - name: Setup PNPM
-        run: corepack enable
-
       - run: npx changelogithub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
