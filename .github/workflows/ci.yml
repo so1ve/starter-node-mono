@@ -15,14 +15,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2.2.1
-
       - name: Set node
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
           cache: pnpm
+
+      - name: Setup PNPM
+        run: corepack enable
 
       - name: Setup
         run: npm i -g @antfu/ni
