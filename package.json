@@ -17,18 +17,18 @@
   "license": "MIT",
   "scripts": {
     "build": "pnpm -r run build",
-    "watch": "pnpm -r --parallel run watch",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepublishOnly": "nr build",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm publish -r --filter ./packages/*",
     "test": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "watch": "pnpm -r --parallel run watch"
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.3",
     "@babel/types": "^7.21.5",
-    "@so1ve/eslint-config": "^0.72.1",
+    "@so1ve/eslint-config": "^0.77.0",
     "@types/node": "^18.16.3",
     "bumpp": "^9.1.0",
     "eslint": "^8.39.0",
