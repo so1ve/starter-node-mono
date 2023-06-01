@@ -32,7 +32,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "unbuild",
-    "stub": "unbuild --stub"
+    "build": "pkgroll",
+    "watch": "pkgroll --watch"
   }
 }
