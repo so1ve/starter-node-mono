@@ -15,8 +15,8 @@ importers:
         specifier: ^0.113.0
         version: 0.113.0(eslint@8.40.0)(prettier@3.0.0)(svelte@4.0.5)(typescript@5.0.4)
       '@so1ve/prettier-config':
-        specifier: ^0.112.3
-        version: 0.112.3(prettier@3.0.0)(svelte@4.0.5)
+        specifier: ^0.113.0
+        version: 0.113.0(prettier@3.0.0)(svelte@4.0.5)
       '@types/node':
         specifier: ^18.16.6
         version: 18.16.6
@@ -838,23 +838,6 @@ packages:
       - eslint
       - supports-color
       - typescript
-    dev: true
-
-  /@so1ve/prettier-config@0.112.3(prettier@3.0.0)(svelte@4.0.5):
-    resolution: {integrity: sha512-QpDevJ4ovOBQzZOofc/YIssZJveiMCKMRIsQUhhL5YNQ35iLyta7LTiOQ2Jb2H8KhKcLi1eODILdvTqaVqBtWg==}
-    peerDependencies:
-      prettier: ^3.0.0
-    dependencies:
-      prettier: 3.0.0
-      prettier-plugin-astro: 0.11.0
-      prettier-plugin-curly: 0.1.1(prettier@3.0.0)
-      prettier-plugin-jsdoc: 0.4.2(prettier@3.0.0)
-      prettier-plugin-pkgsort: 0.2.0(prettier@3.0.0)
-      prettier-plugin-svelte: 2.10.1(prettier@3.0.0)(svelte@4.0.5)
-      prettier-plugin-toml: 0.3.1
-    transitivePeerDependencies:
-      - supports-color
-      - svelte
     dev: true
 
   /@so1ve/prettier-config@0.113.0(prettier@3.0.0)(svelte@4.0.5):
