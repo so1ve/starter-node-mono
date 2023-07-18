@@ -17,8 +17,8 @@
   "license": "MIT",
   "scripts": {
     "build": "pnpm -r run build",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "eslint . && prettier . --check",
+    "lint:fix": "eslint . --fix && prettier . --write",
     "prepublishOnly": "nr build",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm publish -r --filter ./packages/*",
     "test": "vitest",
@@ -27,7 +27,8 @@
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.3",
-    "@so1ve/eslint-config": "^0.112.3",
+    "@so1ve/eslint-config": "^0.113.0",
+    "@so1ve/prettier-config": "^0.112.3",
     "@types/node": "^18.16.6",
     "bumpp": "^9.1.0",
     "eslint": "^8.40.0",
