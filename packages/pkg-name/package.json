@@ -1,38 +1,38 @@
 {
-  "name": "@org-name/pkg-name",
-  "version": "0.0.0",
-  "author": "Ray <i@mk1.io> (https://github.com/so1ve)",
-  "description": "A Monorepo package",
-  "keywords": [],
-  "homepage": "https://github.com/so1ve/repo-name/tree/main/packages/pkg-name#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/so1ve/repo-name.git",
-    "directory": "/"
-  },
-  "bugs": {
-    "url": "https://github.com/so1ve/repo-name/issues"
-  },
-  "license": "MIT",
-  "sideEffects": false,
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
-    }
-  },
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "build": "pkgroll",
-    "watch": "pkgroll --watch"
-  }
+	"name": "@org-name/pkg-name",
+	"version": "0.0.0",
+	"author": "Ray <i@mk1.io> (https://github.com/so1ve)",
+	"description": "A Monorepo package",
+	"keywords": [],
+	"homepage": "https://github.com/so1ve/repo-name/tree/main/packages/pkg-name#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/so1ve/repo-name.git",
+		"directory": "/"
+	},
+	"bugs": {
+		"url": "https://github.com/so1ve/repo-name/issues"
+	},
+	"license": "MIT",
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"require": "./dist/index.cjs",
+			"import": "./dist/index.mjs"
+		}
+	},
+	"main": "dist/index.cjs",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "pkgroll",
+		"watch": "pkgroll --watch"
+	}
 }
