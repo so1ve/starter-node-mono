@@ -1,42 +1,42 @@
 {
-  "name": "@org-name/monorepo",
-  "private": true,
-  "version": "0.0.0",
-  "packageManager": "pnpm@8.6.10",
-  "author": "Ray <i@mk1.io> (https://github.com/so1ve)",
-  "description": "",
-  "keywords": [],
-  "homepage": "https://github.com/so1ve/repo-name#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/so1ve/repo-name.git"
-  },
-  "bugs": {
-    "url": "https://github.com/so1ve/repo-name/issues"
-  },
-  "license": "MIT",
-  "scripts": {
-    "build": "pnpm -r run build",
-    "lint": "eslint . && prettier . --check",
-    "lint:fix": "eslint . --fix && prettier . --write",
-    "prepublishOnly": "nr build",
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm publish -r --filter ./packages/*",
-    "test": "vitest",
-    "typecheck": "tsc --noEmit",
-    "watch": "pnpm -r --parallel run watch"
-  },
-  "devDependencies": {
-    "@antfu/ni": "^0.21.3",
-    "@so1ve/eslint-config": "^0.116.0",
-    "@so1ve/prettier-config": "^0.116.0",
-    "@types/node": "^18.16.6",
-    "bumpp": "^9.1.0",
-    "eslint": "^8.40.0",
-    "pkgroll": "^1.10.0",
-    "prettier": "^3.0.0",
-    "tsx": "^3.12.7",
-    "typescript": "^5.0.4",
-    "vite": "^4.3.5",
-    "vitest": "^0.33.0"
-  }
+	"name": "@org-name/monorepo",
+	"private": true,
+	"version": "0.0.0",
+	"packageManager": "pnpm@8.6.10",
+	"author": "Ray <i@mk1.io> (https://github.com/so1ve)",
+	"description": "",
+	"keywords": [],
+	"homepage": "https://github.com/so1ve/repo-name#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/so1ve/repo-name.git"
+	},
+	"bugs": {
+		"url": "https://github.com/so1ve/repo-name/issues"
+	},
+	"license": "MIT",
+	"scripts": {
+		"build": "pnpm -r run build",
+		"lint": "eslint . && prettier . --check",
+		"lint:fix": "eslint . --fix && prettier . --write",
+		"prepublishOnly": "nr build",
+		"release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm publish -r --filter ./packages/*",
+		"test": "vitest",
+		"typecheck": "tsc --noEmit",
+		"watch": "pnpm -r --parallel run watch"
+	},
+	"devDependencies": {
+		"@antfu/ni": "^0.21.3",
+		"@so1ve/eslint-config": "^0.116.0",
+		"@so1ve/prettier-config": "^0.116.0",
+		"@types/node": "^18.16.6",
+		"bumpp": "^9.1.0",
+		"eslint": "^8.40.0",
+		"pkgroll": "^1.10.0",
+		"prettier": "^3.0.0",
+		"tsx": "^3.12.7",
+		"typescript": "^5.0.4",
+		"vite": "^4.3.5",
+		"vitest": "^0.33.0"
+	}
 }
