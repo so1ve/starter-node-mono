@@ -1,6 +1,6 @@
 {
-	"name": "@org-name/monorepo",
 	"private": true,
+	"type": "module",
 	"packageManager": "pnpm@8.15.4",
 	"scripts": {
 		"build": "pnpm -r run build",
@@ -18,7 +18,7 @@
 		"@so1ve/prettier-config": "^1.1.1",
 		"@types/node": "^20.8.3",
 		"bumpp": "^9.1.0",
-		"eslint": "^8.50.0",
+		"eslint": "^8.57.0",
 		"pkgroll": "^2.0.0",
 		"prettier": "^3.0.0",
 		"tsx": "^3.12.7",
