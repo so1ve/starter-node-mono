@@ -17,14 +17,12 @@
 	"sideEffects": false,
 	"exports": {
 		".": {
-			"types": "./dist/index.d.ts",
-			"require": "./dist/index.cjs",
+			"require": "./dist/index.js",
 			"import": "./dist/index.mjs"
 		}
 	},
-	"main": "dist/index.cjs",
+	"main": "dist/index.js",
 	"module": "dist/index.mjs",
-	"types": "dist/index.d.ts",
 	"files": [
 		"dist"
 	],
@@ -32,7 +30,7 @@
 		"access": "public"
 	},
 	"scripts": {
-		"build": "pkgroll",
-		"watch": "pkgroll --watch"
+		"build": "tsup",
+		"watch": "tsup --watch"
 	}
 }
